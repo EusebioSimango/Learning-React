@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import styles from './Home.module.css'
 
 const Home = () => {
   
@@ -12,7 +13,7 @@ const Home = () => {
     <div className="Home"> 
     {  }
       { blogs.map( blog => (
-        <div className="blog-preview" key={blog.id}>
+        <div className={styles.blogPreview} key={blog.id}>
           <h2>{ blog.title }</h2>
           <p>Written by { blog.author }</p>
         </div>
