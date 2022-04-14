@@ -1,0 +1,29 @@
+.navBar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: tomato;
+}
+
+.navBar nav {
+  display: flex;
+  gap: 5px;
+}
+
+.navBar nav a {
+  padding: 10px;
+  color: #746767;
+}
+
+.navBar nav a:hover {
+  background-color: #746767;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}

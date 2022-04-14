@@ -1,0 +1,15 @@
+.blogPreview {
+  border-bottom: 1px solid #fafafa;
+  padding: 10px;
+  margin: 5px;
+}
+
+.blogPreview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blogPreview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
