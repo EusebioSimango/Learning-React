@@ -1,8 +1,10 @@
 .navBar {
   display: flex;
-  padding: 10px;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #fafafa;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -16,7 +18,7 @@
 
 .navBar nav a {
   padding: 10px;
-  color: #746767;
+  
 }
 
 .navBar nav a:hover {
@@ -26,4 +28,5 @@
 
 a {
   text-decoration: none;
+  color: #746767;
 }
