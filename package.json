@@ -8,9 +8,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "json-server": "^0.17.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "router-dom": "^2.2.9"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
